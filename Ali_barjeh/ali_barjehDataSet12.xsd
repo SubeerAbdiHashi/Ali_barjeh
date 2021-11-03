@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ali_barjehDataSet12" targetNamespace="http://tempuri.org/ali_barjehDataSet12.xsd" xmlns:mstns="http://tempuri.org/ali_barjehDataSet12.xsd" xmlns="http://tempuri.org/ali_barjehDataSet12.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ali_barjehConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ali_barjehConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ali_barjeh.Properties.Settings.GlobalReference.Default.ali_barjehConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_salaryTableAdapter" GeneratorDataComponentClassName="V_salaryTableAdapter" Name="V_salary" UserDataComponentName="V_salaryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ali_barjehConnectionString (Settings)" DbObjectName="ali_barjeh.dbo.V_salary" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, Em_firstName, Em_middleName, Phone, Salary_Amount, Salary_date FROM dbo.V_salary</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="Em_firstName" DataSetColumn="Em_firstName" />
+              <Mapping SourceColumn="Em_middleName" DataSetColumn="Em_middleName" />
+              <Mapping SourceColumn="Phone" DataSetColumn="Phone" />
+              <Mapping SourceColumn="Salary_Amount" DataSetColumn="Salary_Amount" />
+              <Mapping SourceColumn="Salary_date" DataSetColumn="Salary_date" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ali_barjehDataSet12" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ali_barjehDataSet12" msprop:Generator_UserDSName="ali_barjehDataSet12">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_salary" msprop:Generator_TableClassName="V_salaryDataTable" msprop:Generator_TableVarName="tableV_salary" msprop:Generator_TablePropName="V_salary" msprop:Generator_RowDeletingName="V_salaryRowDeleting" msprop:Generator_RowChangingName="V_salaryRowChanging" msprop:Generator_RowEvHandlerName="V_salaryRowChangeEventHandler" msprop:Generator_RowDeletedName="V_salaryRowDeleted" msprop:Generator_UserTableName="V_salary" msprop:Generator_RowChangedName="V_salaryRowChanged" msprop:Generator_RowEvArgName="V_salaryRowChangeEvent" msprop:Generator_RowClassName="V_salaryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:long" />
+              <xs:element name="Em_firstName" msprop:Generator_ColumnVarNameInTable="columnEm_firstName" msprop:Generator_ColumnPropNameInRow="Em_firstName" msprop:Generator_ColumnPropNameInTable="Em_firstNameColumn" msprop:Generator_UserColumnName="Em_firstName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Em_middleName" msprop:Generator_ColumnVarNameInTable="columnEm_middleName" msprop:Generator_ColumnPropNameInRow="Em_middleName" msprop:Generator_ColumnPropNameInTable="Em_middleNameColumn" msprop:Generator_UserColumnName="Em_middleName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phone" msprop:Generator_ColumnVarNameInTable="columnPhone" msprop:Generator_ColumnPropNameInRow="Phone" msprop:Generator_ColumnPropNameInTable="PhoneColumn" msprop:Generator_UserColumnName="Phone" type="xs:int" />
+              <xs:element name="Salary_Amount" msprop:Generator_ColumnVarNameInTable="columnSalary_Amount" msprop:Generator_ColumnPropNameInRow="Salary_Amount" msprop:Generator_ColumnPropNameInTable="Salary_AmountColumn" msprop:Generator_UserColumnName="Salary_Amount" type="xs:double" />
+              <xs:element name="Salary_date" msprop:Generator_ColumnVarNameInTable="columnSalary_date" msprop:Generator_ColumnPropNameInRow="Salary_date" msprop:Generator_ColumnPropNameInTable="Salary_dateColumn" msprop:Generator_UserColumnName="Salary_date" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_salary" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

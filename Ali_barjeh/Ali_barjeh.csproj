@@ -1,0 +1,1033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF69593A-FA90-47BA-BB8B-D675B6FE6C4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ali_barjeh</RootNamespace>
+    <AssemblyName>Ali_barjeh</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>C:\Users\JK_pc\Desktop\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ali_barjehDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ali_barjehDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ali_barjehDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport\CrystalFullReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalFullReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport\CR_sales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CR_sales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DataFullRep.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataFullRep.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DS_sales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_sales.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form2Rep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2Rep.Designer.cs">
+      <DependentUpon>Form2Rep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddCustomer.Designer.cs">
+      <DependentUpon>FormAddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddEmployee.Designer.cs">
+      <DependentUpon>FormAddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddExpenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddExpenses.Designer.cs">
+      <DependentUpon>FormAddExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddSalary.Designer.cs">
+      <DependentUpon>FormAddSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddSupplier.Designer.cs">
+      <DependentUpon>FormAddSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAdd_Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAdd_Item.Designer.cs">
+      <DependentUpon>FormAdd_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormForget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormForget.Designer.cs">
+      <DependentUpon>FormForget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSalesReport.Designer.cs">
+      <DependentUpon>FormSalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTransfer.Designer.cs">
+      <DependentUpon>FormTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateCustomer.Designer.cs">
+      <DependentUpon>FormUpdateCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateEmployee.Designer.cs">
+      <DependentUpon>FormUpdateEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdateExpenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateExpenses.Designer.cs">
+      <DependentUpon>FormUpdateExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdateLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateLoan.Designer.cs">
+      <DependentUpon>FormUpdateLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdateSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateSalary.Designer.cs">
+      <DependentUpon>FormUpdateSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdateSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateSupplier.Designer.cs">
+      <DependentUpon>FormUpdateSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTakeStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTakeStore.Designer.cs">
+      <DependentUpon>FormTakeStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdate_Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdate_Item.Designer.cs">
+      <DependentUpon>FormUpdate_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_login.Designer.cs">
+      <DependentUpon>Form_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users\backup and restore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\backup and restore.Designer.cs">
+      <DependentUpon>backup and restore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UCFullReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UCFullReport.Designer.cs">
+      <DependentUpon>UCFullReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_Customer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_Customer.Designer.cs">
+      <DependentUpon>UC_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_cus_Rep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_cus_Rep.Designer.cs">
+      <DependentUpon>UC_cus_Rep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_Employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_Employee.Designer.cs">
+      <DependentUpon>UC_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_Expenses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_Expenses.Designer.cs">
+      <DependentUpon>UC_Expenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_home1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_home1.Designer.cs">
+      <DependentUpon>UC_home1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_items.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_items.Designer.cs">
+      <DependentUpon>UC_items.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_Loan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_Loan.Designer.cs">
+      <DependentUpon>UC_Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_Salary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_Salary.Designer.cs">
+      <DependentUpon>UC_Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_sales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_sales.Designer.cs">
+      <DependentUpon>UC_sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_SpacificRep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_SpacificRep.Designer.cs">
+      <DependentUpon>UC_SpacificRep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_stock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_stock.Designer.cs">
+      <DependentUpon>UC_stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_Supplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_Supplier.Designer.cs">
+      <DependentUpon>UC_Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UC_userManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\UC_userManage.Designer.cs">
+      <DependentUpon>UC_userManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Us_home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Users\Us_home.Designer.cs">
+      <DependentUpon>Us_home.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport\CrystalFullReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalFullReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport\CR_sales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CR_sales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2Rep.resx">
+      <DependentUpon>Form2Rep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddCustomer.resx">
+      <DependentUpon>FormAddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddEmployee.resx">
+      <DependentUpon>FormAddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddExpenses.resx">
+      <DependentUpon>FormAddExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddSalary.resx">
+      <DependentUpon>FormAddSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddSupplier.resx">
+      <DependentUpon>FormAddSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAdd_Item.resx">
+      <DependentUpon>FormAdd_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormForget.resx">
+      <DependentUpon>FormForget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSalesReport.resx">
+      <DependentUpon>FormSalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTransfer.resx">
+      <DependentUpon>FormTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateCustomer.resx">
+      <DependentUpon>FormUpdateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateEmployee.resx">
+      <DependentUpon>FormUpdateEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateExpenses.resx">
+      <DependentUpon>FormUpdateExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateLoan.resx">
+      <DependentUpon>FormUpdateLoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateSalary.resx">
+      <DependentUpon>FormUpdateSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateSupplier.resx">
+      <DependentUpon>FormUpdateSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTakeStore.resx">
+      <DependentUpon>FormTakeStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdate_Item.resx">
+      <DependentUpon>FormUpdate_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_login.resx">
+      <DependentUpon>Form_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Users\backup and restore.resx">
+      <DependentUpon>backup and restore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UCFullReport.resx">
+      <DependentUpon>UCFullReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_Customer.resx">
+      <DependentUpon>UC_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_cus_Rep.resx">
+      <DependentUpon>UC_cus_Rep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_Employee.resx">
+      <DependentUpon>UC_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_Expenses.resx">
+      <DependentUpon>UC_Expenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_home1.resx">
+      <DependentUpon>UC_home1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_items.resx">
+      <DependentUpon>UC_items.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_Loan.resx">
+      <DependentUpon>UC_Loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_Salary.resx">
+      <DependentUpon>UC_Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_sales.resx">
+      <DependentUpon>UC_sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_SpacificRep.resx">
+      <DependentUpon>UC_SpacificRep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_stock.resx">
+      <DependentUpon>UC_stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_Supplier.resx">
+      <DependentUpon>UC_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\UC_userManage.resx">
+      <DependentUpon>UC_userManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\Us_home.resx">
+      <DependentUpon>Us_home.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ali_barjehDataSet.xsc">
+      <DependentUpon>ali_barjehDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet.xss">
+      <DependentUpon>ali_barjehDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet1.xsc">
+      <DependentUpon>ali_barjehDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet1.xss">
+      <DependentUpon>ali_barjehDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet10.xsc">
+      <DependentUpon>ali_barjehDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet10.xss">
+      <DependentUpon>ali_barjehDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet11.xsc">
+      <DependentUpon>ali_barjehDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet11.xss">
+      <DependentUpon>ali_barjehDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet12.xsc">
+      <DependentUpon>ali_barjehDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet12.xss">
+      <DependentUpon>ali_barjehDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet13.xsc">
+      <DependentUpon>ali_barjehDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet13.xss">
+      <DependentUpon>ali_barjehDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet14.xsc">
+      <DependentUpon>ali_barjehDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet14.xss">
+      <DependentUpon>ali_barjehDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet15.xsc">
+      <DependentUpon>ali_barjehDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet15.xss">
+      <DependentUpon>ali_barjehDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet16.xsc">
+      <DependentUpon>ali_barjehDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet16.xss">
+      <DependentUpon>ali_barjehDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet17.xsc">
+      <DependentUpon>ali_barjehDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet17.xss">
+      <DependentUpon>ali_barjehDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet2.xsc">
+      <DependentUpon>ali_barjehDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet2.xss">
+      <DependentUpon>ali_barjehDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet3.xsc">
+      <DependentUpon>ali_barjehDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet3.xss">
+      <DependentUpon>ali_barjehDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet4.xsc">
+      <DependentUpon>ali_barjehDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet4.xss">
+      <DependentUpon>ali_barjehDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet5.xsc">
+      <DependentUpon>ali_barjehDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet5.xss">
+      <DependentUpon>ali_barjehDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet6.xsc">
+      <DependentUpon>ali_barjehDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet6.xss">
+      <DependentUpon>ali_barjehDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet7.xsc">
+      <DependentUpon>ali_barjehDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet7.xss">
+      <DependentUpon>ali_barjehDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet8.xsc">
+      <DependentUpon>ali_barjehDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet8.xss">
+      <DependentUpon>ali_barjehDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet9.xsc">
+      <DependentUpon>ali_barjehDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ali_barjehDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ali_barjehDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ali_barjehDataSet9.xss">
+      <DependentUpon>ali_barjehDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DataFullRep.xsc">
+      <DependentUpon>DataFullRep.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DataFullRep.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataFullRep.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DataFullRep.xss">
+      <DependentUpon>DataFullRep.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DS_sales.xsc">
+      <DependentUpon>DS_sales.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DS_sales.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_sales.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DS_sales.xss">
+      <DependentUpon>DS_sales.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Splash Screan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crown_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crown_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invisible_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invisible_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Visible_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping Bag_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Groups_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Product_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Free Shipping_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Group Man Man_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash In Hand_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expensive 2_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Groups_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restart_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Product_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Free Shipping_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Group Man Man_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expensive 2_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Receipt_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Change User Male_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circled User Male_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shutdown_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shutdown_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window_19px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data Backup_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\System Report_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Synchronize_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Room_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Combo Chart_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conference Background Selected_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gender Neutral User_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Product_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping Bag_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Group Man Man_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Product_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Free Shipping_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Groups_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout Rounded Up_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circled User Male Skin Type 4_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circled User Male Skin Type 4_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circled User Male Skin Type 4_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Move Stock_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redo_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bell_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Return Purchase_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Splash Screan1.png" />
+    <None Include="Resources\Splash Screan11.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

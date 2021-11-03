@@ -1,0 +1,270 @@
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe.config
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.pdb
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csprojResolveAssemblyReference.cache
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Form1.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Properties.Resources.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csproj.GenerateResource.Cache
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.exe
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.pdb
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Form_login.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.Us_home.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_sales.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Customer.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_items.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Employee.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Salary.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Supplier.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Expenses.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Loan.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddExpenses.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateExpenses.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateLoan.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddCustomer.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateCustomer.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAdd_Item.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdate_Item.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSupplier.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSupplier.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddEmployee.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateEmployee.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSalary.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormSalesReport.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_userManage.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.backup_and_restore.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_cus_Rep.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UCFullReport.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_SpacificRep.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSalary.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormForget.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_home1.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_stock.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Dashboard.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTransfer.resources
+F:\Youtube lessons\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTakeStore.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe.config
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.exe
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.pdb
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.pdb
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Form1.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddCustomer.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddEmployee.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddExpenses.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSalary.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSupplier.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAdd_Item.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Dashboard.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormForget.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormSalesReport.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTransfer.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateCustomer.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateEmployee.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateExpenses.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateLoan.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSalary.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSupplier.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTakeStore.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdate_Item.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Form_login.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Properties.Resources.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.backup_and_restore.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UCFullReport.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Customer.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_cus_Rep.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Employee.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Expenses.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_home1.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_items.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Loan.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Salary.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_sales.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_SpacificRep.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_stock.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Supplier.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_userManage.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.Us_home.resources
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csproj.GenerateResource.Cache
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csprojResolveAssemblyReference.cache
+C:\Users\Abdi qani\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Form2Rep.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe.config
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.exe
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.pdb
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.pdb
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csprojResolveAssemblyReference.cache
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Form2Rep.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Form1.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddCustomer.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddEmployee.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddExpenses.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSalary.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSupplier.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAdd_Item.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Dashboard.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormForget.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormSalesReport.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTransfer.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateCustomer.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateEmployee.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateExpenses.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateLoan.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSalary.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSupplier.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTakeStore.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdate_Item.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Form_login.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Properties.Resources.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.backup_and_restore.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UCFullReport.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Customer.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_cus_Rep.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Employee.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Expenses.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_home1.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_items.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Loan.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Salary.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_sales.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_SpacificRep.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_stock.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Supplier.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_userManage.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.Us_home.resources
+D:\Tisqaad\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csproj.GenerateResource.Cache
+G:\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe.config
+G:\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.exe
+G:\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.pdb
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe.config
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.pdb
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.Shared.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.Windows.Forms.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\DevComponents.DotNetBar2.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\FlashControlV71.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\ShockwaveFlashObjects.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\bin\Debug\stdole.dll
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csprojAssemblyReference.cache
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Form2Rep.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Form1.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddCustomer.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddEmployee.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddExpenses.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSalary.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSupplier.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAdd_Item.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Dashboard.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormForget.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormSalesReport.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTransfer.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateCustomer.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateEmployee.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateExpenses.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateLoan.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSalary.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSupplier.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTakeStore.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdate_Item.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Form_login.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Properties.Resources.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.backup_and_restore.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UCFullReport.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Customer.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_cus_Rep.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Employee.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Expenses.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_home1.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_items.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Loan.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Salary.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_sales.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_SpacificRep.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_stock.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Supplier.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_userManage.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.Us_home.resources
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csproj.GenerateResource.cache
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csproj.CoreCompileInputs.cache
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csproj.CopyComplete
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.exe
+F:\program\Project Car\Project Car\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.pdb
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe.config
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.exe
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\Ali_barjeh.pdb
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\FlashControlV71.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\bin\Debug\stdole.dll
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csprojAssemblyReference.cache
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Form2Rep.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Form1.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddCustomer.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddEmployee.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddExpenses.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSalary.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAddSupplier.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormAdd_Item.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Dashboard.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormForget.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormSalesReport.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTransfer.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateCustomer.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateEmployee.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateExpenses.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateLoan.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSalary.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdateSupplier.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormTakeStore.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.FormUpdate_Item.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Forms.Form_login.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Properties.Resources.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.backup_and_restore.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UCFullReport.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Customer.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_cus_Rep.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Employee.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Expenses.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_home1.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_items.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Loan.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Salary.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_sales.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_SpacificRep.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_stock.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_Supplier.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.UC_userManage.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.Users.Us_home.resources
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csproj.GenerateResource.cache
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csproj.CoreCompileInputs.cache
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.csproj.CopyComplete
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.exe
+C:\Users\JK_pc\Desktop\Ali_barjeh\Ali_barjeh\obj\Debug\Ali_barjeh.pdb

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ali_barjehDataSet11" targetNamespace="http://tempuri.org/ali_barjehDataSet11.xsd" xmlns:mstns="http://tempuri.org/ali_barjehDataSet11.xsd" xmlns="http://tempuri.org/ali_barjehDataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ali_barjehConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ali_barjehConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ali_barjeh.Properties.Settings.GlobalReference.Default.ali_barjehConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_itemTableAdapter" GeneratorDataComponentClassName="v_itemTableAdapter" Name="v_item" UserDataComponentName="v_itemTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ali_barjehConnectionString (Settings)" DbObjectName="ali_barjeh.dbo.v_item" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Item_id, Item_name, Available, Item_cost, Item_price, Sup_Name FROM dbo.v_item</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Item_id" DataSetColumn="Item_id" />
+              <Mapping SourceColumn="Item_name" DataSetColumn="Item_name" />
+              <Mapping SourceColumn="Available" DataSetColumn="Available" />
+              <Mapping SourceColumn="Item_cost" DataSetColumn="Item_cost" />
+              <Mapping SourceColumn="Item_price" DataSetColumn="Item_price" />
+              <Mapping SourceColumn="Sup_Name" DataSetColumn="Sup_Name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ali_barjehDataSet11" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ali_barjehDataSet11" msprop:Generator_UserDSName="ali_barjehDataSet11">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_item" msprop:Generator_TableClassName="v_itemDataTable" msprop:Generator_TableVarName="tablev_item" msprop:Generator_TablePropName="v_item" msprop:Generator_RowDeletingName="v_itemRowDeleting" msprop:Generator_RowChangingName="v_itemRowChanging" msprop:Generator_RowEvHandlerName="v_itemRowChangeEventHandler" msprop:Generator_RowDeletedName="v_itemRowDeleted" msprop:Generator_UserTableName="v_item" msprop:Generator_RowChangedName="v_itemRowChanged" msprop:Generator_RowEvArgName="v_itemRowChangeEvent" msprop:Generator_RowClassName="v_itemRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Item_id" msprop:Generator_ColumnVarNameInTable="columnItem_id" msprop:Generator_ColumnPropNameInRow="Item_id" msprop:Generator_ColumnPropNameInTable="Item_idColumn" msprop:Generator_UserColumnName="Item_id" type="xs:long" />
+              <xs:element name="Item_name" msprop:Generator_ColumnVarNameInTable="columnItem_name" msprop:Generator_ColumnPropNameInRow="Item_name" msprop:Generator_ColumnPropNameInTable="Item_nameColumn" msprop:Generator_UserColumnName="Item_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="19" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Available" msprop:Generator_ColumnVarNameInTable="columnAvailable" msprop:Generator_ColumnPropNameInRow="Available" msprop:Generator_ColumnPropNameInTable="AvailableColumn" msprop:Generator_UserColumnName="Available" type="xs:int" />
+              <xs:element name="Item_cost" msprop:Generator_ColumnVarNameInTable="columnItem_cost" msprop:Generator_ColumnPropNameInRow="Item_cost" msprop:Generator_ColumnPropNameInTable="Item_costColumn" msprop:Generator_UserColumnName="Item_cost" type="xs:double" />
+              <xs:element name="Item_price" msprop:Generator_ColumnVarNameInTable="columnItem_price" msprop:Generator_ColumnPropNameInRow="Item_price" msprop:Generator_ColumnPropNameInTable="Item_priceColumn" msprop:Generator_UserColumnName="Item_price" type="xs:double" />
+              <xs:element name="Sup_Name" msprop:Generator_ColumnVarNameInTable="columnSup_Name" msprop:Generator_ColumnPropNameInRow="Sup_Name" msprop:Generator_ColumnPropNameInTable="Sup_NameColumn" msprop:Generator_UserColumnName="Sup_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:v_item" />
+      <xs:field xpath="mstns:Item_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

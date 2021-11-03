@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ali_barjehDataSet" targetNamespace="http://tempuri.org/ali_barjehDataSet.xsd" xmlns:mstns="http://tempuri.org/ali_barjehDataSet.xsd" xmlns="http://tempuri.org/ali_barjehDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ali_barjehConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ali_barjehConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ali_barjeh.Properties.Settings.GlobalReference.Default.ali_barjehConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="loanTableAdapter" GeneratorDataComponentClassName="loanTableAdapter" Name="loan" UserDataComponentName="loanTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ali_barjehConnectionString (Settings)" DbObjectName="ali_barjeh.dbo.loan" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT or_id, cus_firstName, cus_middleName, phone, total_amount, discount, net_total, receipt, balance, or_date FROM dbo.loan</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="or_id" DataSetColumn="or_id" />
+              <Mapping SourceColumn="cus_firstName" DataSetColumn="cus_firstName" />
+              <Mapping SourceColumn="cus_middleName" DataSetColumn="cus_middleName" />
+              <Mapping SourceColumn="phone" DataSetColumn="phone" />
+              <Mapping SourceColumn="total_amount" DataSetColumn="total_amount" />
+              <Mapping SourceColumn="discount" DataSetColumn="discount" />
+              <Mapping SourceColumn="net_total" DataSetColumn="net_total" />
+              <Mapping SourceColumn="receipt" DataSetColumn="receipt" />
+              <Mapping SourceColumn="balance" DataSetColumn="balance" />
+              <Mapping SourceColumn="or_date" DataSetColumn="or_date" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ali_barjehDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ali_barjehDataSet" msprop:Generator_UserDSName="ali_barjehDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="loan" msprop:Generator_TableClassName="loanDataTable" msprop:Generator_TableVarName="tableloan" msprop:Generator_TablePropName="loan" msprop:Generator_RowDeletingName="loanRowDeleting" msprop:Generator_RowChangingName="loanRowChanging" msprop:Generator_RowEvHandlerName="loanRowChangeEventHandler" msprop:Generator_RowDeletedName="loanRowDeleted" msprop:Generator_UserTableName="loan" msprop:Generator_RowChangedName="loanRowChanged" msprop:Generator_RowEvArgName="loanRowChangeEvent" msprop:Generator_RowClassName="loanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="or_id" msprop:Generator_ColumnVarNameInTable="columnor_id" msprop:Generator_ColumnPropNameInRow="or_id" msprop:Generator_ColumnPropNameInTable="or_idColumn" msprop:Generator_UserColumnName="or_id" type="xs:long" />
+              <xs:element name="cus_firstName" msprop:Generator_ColumnVarNameInTable="columncus_firstName" msprop:Generator_ColumnPropNameInRow="cus_firstName" msprop:Generator_ColumnPropNameInTable="cus_firstNameColumn" msprop:Generator_UserColumnName="cus_firstName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cus_middleName" msprop:Generator_ColumnVarNameInTable="columncus_middleName" msprop:Generator_ColumnPropNameInRow="cus_middleName" msprop:Generator_ColumnPropNameInTable="cus_middleNameColumn" msprop:Generator_UserColumnName="cus_middleName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="phone" msprop:Generator_ColumnVarNameInTable="columnphone" msprop:Generator_ColumnPropNameInRow="phone" msprop:Generator_ColumnPropNameInTable="phoneColumn" msprop:Generator_UserColumnName="phone" type="xs:int" />
+              <xs:element name="total_amount" msprop:Generator_ColumnVarNameInTable="columntotal_amount" msprop:Generator_ColumnPropNameInRow="total_amount" msprop:Generator_ColumnPropNameInTable="total_amountColumn" msprop:Generator_UserColumnName="total_amount" type="xs:double" />
+              <xs:element name="discount" msprop:Generator_ColumnVarNameInTable="columndiscount" msprop:Generator_ColumnPropNameInRow="discount" msprop:Generator_ColumnPropNameInTable="discountColumn" msprop:Generator_UserColumnName="discount" type="xs:double" />
+              <xs:element name="net_total" msprop:Generator_ColumnVarNameInTable="columnnet_total" msprop:Generator_ColumnPropNameInRow="net_total" msprop:Generator_ColumnPropNameInTable="net_totalColumn" msprop:Generator_UserColumnName="net_total" type="xs:double" />
+              <xs:element name="receipt" msprop:Generator_ColumnVarNameInTable="columnreceipt" msprop:Generator_ColumnPropNameInRow="receipt" msprop:Generator_ColumnPropNameInTable="receiptColumn" msprop:Generator_UserColumnName="receipt" type="xs:double" />
+              <xs:element name="balance" msprop:Generator_ColumnVarNameInTable="columnbalance" msprop:Generator_ColumnPropNameInRow="balance" msprop:Generator_ColumnPropNameInTable="balanceColumn" msprop:Generator_UserColumnName="balance" type="xs:double" minOccurs="0" />
+              <xs:element name="or_date" msprop:Generator_ColumnVarNameInTable="columnor_date" msprop:Generator_ColumnPropNameInRow="or_date" msprop:Generator_ColumnPropNameInTable="or_dateColumn" msprop:Generator_UserColumnName="or_date" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:loan" />
+      <xs:field xpath="mstns:or_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ali_barjehDataSet13" targetNamespace="http://tempuri.org/ali_barjehDataSet13.xsd" xmlns:mstns="http://tempuri.org/ali_barjehDataSet13.xsd" xmlns="http://tempuri.org/ali_barjehDataSet13.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ali_barjehConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ali_barjehConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Ali_barjeh.Properties.Settings.GlobalReference.Default.ali_barjehConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_stockTableAdapter" GeneratorDataComponentClassName="v_stockTableAdapter" Name="v_stock" UserDataComponentName="v_stockTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ali_barjehConnectionString (Settings)" DbObjectName="ali_barjeh.dbo.v_stock" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Item_id, Item_name, stock_qty FROM dbo.v_stock</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Item_id" DataSetColumn="Item_id" />
+              <Mapping SourceColumn="Item_name" DataSetColumn="Item_name" />
+              <Mapping SourceColumn="stock_qty" DataSetColumn="stock_qty" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ali_barjehDataSet13" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ali_barjehDataSet13" msprop:Generator_UserDSName="ali_barjehDataSet13">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_stock" msprop:Generator_TableClassName="v_stockDataTable" msprop:Generator_TableVarName="tablev_stock" msprop:Generator_TablePropName="v_stock" msprop:Generator_RowDeletingName="v_stockRowDeleting" msprop:Generator_RowChangingName="v_stockRowChanging" msprop:Generator_RowEvHandlerName="v_stockRowChangeEventHandler" msprop:Generator_RowDeletedName="v_stockRowDeleted" msprop:Generator_UserTableName="v_stock" msprop:Generator_RowChangedName="v_stockRowChanged" msprop:Generator_RowEvArgName="v_stockRowChangeEvent" msprop:Generator_RowClassName="v_stockRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Item_id" msprop:Generator_ColumnVarNameInTable="columnItem_id" msprop:Generator_ColumnPropNameInRow="Item_id" msprop:Generator_ColumnPropNameInTable="Item_idColumn" msprop:Generator_UserColumnName="Item_id" type="xs:long" />
+              <xs:element name="Item_name" msprop:Generator_ColumnVarNameInTable="columnItem_name" msprop:Generator_ColumnPropNameInRow="Item_name" msprop:Generator_ColumnPropNameInTable="Item_nameColumn" msprop:Generator_UserColumnName="Item_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="19" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="stock_qty" msprop:Generator_ColumnVarNameInTable="columnstock_qty" msprop:Generator_ColumnPropNameInRow="stock_qty" msprop:Generator_ColumnPropNameInTable="stock_qtyColumn" msprop:Generator_UserColumnName="stock_qty" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:v_stock" />
+      <xs:field xpath="mstns:Item_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
